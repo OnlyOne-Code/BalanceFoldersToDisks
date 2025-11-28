@@ -1,16 +1,16 @@
 # === Конфигурация ===
 $folders = @(
-    "J:\Азиатские", "J:\Детские", "J:\Зарубежные", "J:\Личное", "J:\Российские",
-    "J:\Сериалы", "J:\Советские", "J:\Фото", "J:\Старое", "J:\Музыка",
-    "I:\Book", "I:\Archive", "I:\Course", "F:\", "G:\", "H:\"
+    "J:\Folder01", "J:\Folder02", "J:\Folder03", "J:\Folder04", "J:\Folder05",
+    "J:\Folder06", "J:\Folder07", "J:\Folder08", "J:\Folder09", "J:\Folder10",
+    "I:\Folder11", "I:\Folder12", "I:\Folder13", "F:\", "G:\", "H:\"
 )
 
 # Папки, которые будут расти — добавим буфер
 $growingFolders = @(
-    "J:\Азиатские",
-    "I:\Book",
-    "J:\Сериалы",
-    "J:\Российские"
+    "J:\Folder01",
+    "I:\Folder11",
+    "J:\Folder07",
+    "J:\Folder08"
 )
 $bufferSizeGB = 100  # Буфер для растущих папок
 
